@@ -6,10 +6,10 @@
 }
 
 .carrossel__titulo {
-    background: linear-gradient(45deg,var(--verde-flourecente),var(--cor-de-fundo));
+    background: linear-gradient(45deg,var(--cor-de-fundo),var(--verde-flourecente),var(--cor-de-fundo));
     color: white;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     margin: .5em 0;
     width: 100%;
 
