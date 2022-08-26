@@ -1,0 +1,15 @@
+.rodape {
+    align-items: center;
+    text-align: center;
+}
+
+.rodape__imagem{
+    display: block;
+    margin: auto auto;
+    width: 50%;
+}
+
+.rodape__texto {
+    color: var(--branco-padrao);
+    margin: 1em 0;
+}

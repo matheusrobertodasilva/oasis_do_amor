@@ -1,0 +1,13 @@
+@import url(./assets/css/carrossel.css);
+@import url(./assets/css/rodape.css);
+
+:root{
+    --cor-de-fundo: #0c1b08;
+    --verde-flourecente: #1FA20C;
+    --branco-padrao: #ffffff;
+}
+
+
+body {
+    background: var(--cor-de-fundo);
+}

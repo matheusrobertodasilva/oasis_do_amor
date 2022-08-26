@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oásis do Amor</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <section class="cabecalho">
+
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Pregadores</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="./assets/img/Pb_Israel.svg" alt=""><p class="swiper-slide">Pb Israel</p></div>
+                  <div class="swiper-slide"><img src="./assets/img/Pr_Moisés_Santos.svg" alt=""><p class="swiper-slide">Pr Moisés Santos</p></div>
+                  <div class="swiper-slide"><img src="./assets/img/Ev_Leonardo_Martins.svg" alt=""><p class="swiper-slide">Ev Leonardo Martins</p></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo"> Cantores</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="./assets/img/Bruna_Amorim.svg" alt=""><p class="swiper-slide">Bruna Amorim</p></div>
+                  <div class="swiper-slide"><img src="./assets/img/Grazy_Werneck.svg" alt=""><p class="swiper-slide">Grazy werneck</p></div>
+                  <div class="swiper-slide"><img src="./assets/img/Rayane_Soares .svg" alt=""><p class="swiper-slide__titulo">Rayane Soares</p></div>
+                  <div class="swiper-slide"><img src="./assets/img/Samuel_Messias.svg" alt=""><p class="swiper-slide">Samuel Messias</p></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+        </div>
+    </section>
+
+
+    <footer class="rodape">
+        <img src="./assets/img/alfa.png" alt="" class="rodape__imagem">
+        <p class="rodape__texto">®2022 - Assembéia de Deus Ministério Alfa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>
