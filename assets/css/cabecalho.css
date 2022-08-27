@@ -1,0 +1,36 @@
+.cabecalho {
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho__titulo {
+    font-family: 'Qwitcher Grypen';
+    font-size: 70px;
+}
+
+.cabecalho__texto {
+    background-color: var(--verde-flourecente);
+    font-size: 20px;
+    margin: auto auto;
+    padding: 2px 0;
+    width: 30%;
+}
+
+.cabecalho-grupo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.grupo__titulo {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.grupo__titulo-cali {
+    align-items: center;
+    font-family: 'Qwitcher Grypen';
+    font-size: 60px;
+    padding: 0 .1em;
+}

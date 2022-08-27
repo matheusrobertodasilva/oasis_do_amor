@@ -1,3 +1,4 @@
+@import url(./assets/css/cabecalho.css);
 @import url(./assets/css/carrossel.css);
 @import url(./assets/css/rodape.css);
 
@@ -12,4 +13,5 @@ body {
     background: var(--cor-de-fundo);
     font-family: 'Inter';
     font-size: 18px;
+    color: var(--branco-padrao);
 }

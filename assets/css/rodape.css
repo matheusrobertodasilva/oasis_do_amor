@@ -3,6 +3,17 @@
     text-align: center;
 }
 
+.rodape-rede__titulo {
+    font-size: 20px;
+}
+
+.lista-rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
+}
+
 .rodape__imagem{
     display: block;
     margin: auto auto;
