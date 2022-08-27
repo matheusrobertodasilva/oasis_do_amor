@@ -34,3 +34,9 @@
     font-size: 60px;
     padding: 0 .1em;
 }
+
+.cabecalho__texto-dias {
+    font-size: 20px;
+    font-weight: 500;
+    margin: .5em 0;
+}

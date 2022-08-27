@@ -4,7 +4,12 @@
     padding-top: 1em;
 }
 
+.rodape-rede {
+    margin: 1em 0;
+}
+
 .rodape-rede__titulo {
+    background: linear-gradient(45deg, var(--cor-de-fundo), var(--verde-militar), var(--cor-de-fundo));
     font-size: 20px;
 }
 
@@ -18,7 +23,25 @@
 .rodape__imagem{
     display: block;
     margin: auto auto;
-    width: 50%;
+    width: 40%;
+    padding: 1.5em .5em;
+}
+.rodape-pastor {
+    padding: 0em .3em;
+}
+
+.pastor__imagem{
+    background: url(../img/pastor-presidente.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 100px;
+    margin: auto auto;
+    width: 100px;
+}
+.rodape__imagem-texto {
+    padding: .3em 7em;
 }
 
 .rodape__texto {

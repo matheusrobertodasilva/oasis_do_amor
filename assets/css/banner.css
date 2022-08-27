@@ -1,6 +1,6 @@
 .banner {
     align-items: center;
-    /* background: #424e36; */
+    background: linear-gradient(360deg, var(--cor-de-fundo), var(--verde-militar), var(--cor-de-fundo));
     text-align: center;
     padding: 1em 0;
 }
