@@ -1,0 +1,39 @@
+.lideranca {
+    text-align: center;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.lideranca__titulo {
+    background: linear-gradient(45deg, var(--cor-de-fundo), var(--verde-militar), var(--cor-de-fundo));
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.lideres {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lideres__imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 100px;
+    margin: auto auto;
+    width: 100px;
+}
+
+.lideres__imagem-rafael {
+    background-image: url(../img/rafael-e-julia.jpg);
+    margin-bottom: .5em;
+}
+
+.lideres__imagem-alexandre {
+    background-image: url(../img/alexandre_e_camila.jpeg);
+    margin-bottom: .5em;
+}
+
+

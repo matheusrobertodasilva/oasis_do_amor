@@ -1,0 +1,21 @@
+.banner {
+    align-items: center;
+    /* background: #424e36; */
+    text-align: center;
+    padding: 1em 0;
+}
+
+.banner__titulo {
+    font-size: 25px;
+    font-weight: 600;
+    padding: .5em .5em;
+}
+
+.banner__texto {
+    padding: .3em; 
+}
+
+.banner__texto-dias {
+    font-size: 20px;
+    padding-top: 1em;
+}
