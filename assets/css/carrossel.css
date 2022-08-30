@@ -2,7 +2,7 @@
 .carrossel {
     text-align: center;
     align-items: center;
-    padding: 1em 0;
+    padding: .5em 0;
 }
 
 .carrossel__titulo {
@@ -15,18 +15,87 @@
 
 }
 
+.carrossel__container {
+    align-items: center;
+    text-align: center;
+}
+
 .swiper {
     width: auto;
     height: auto;
 }
 
+.swiper-wrapper{
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+}
 
-.swiper-slide, img{
+.swiper-slide{
     color: white;
     align-items: center;
     text-align: center;
-    width: 100%;
+    
 }
+
+/* imagem dos cantores e pregadores */
+.carrossel__imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 100px;
+    margin: auto auto;
+    width: 100px;
+}
+/* pregadores */
+.carrossel__imagem-israel{
+    background-image: url(../img/israel.jpeg);
+    
+    
+}
+
+.carrossel__imagem-moseis{
+    background-image: url(../img/moises.jpeg);
+    
+}
+
+.carrossel__imagem-leonardo{
+    background-image: url(../img/leonardo.jpeg);
+    
+}
+
+/* cantores */
+.carrossel__imagem-bruna{
+    background-image: url(../img/bruna.jpeg);
+    
+}
+
+.carrossel__imagem-grazy{
+    background-image: url(../img/grazy.jpeg);
+    
+}
+
+.carrossel__imagem-rayane{
+    background-image: url(../img/rayane.jpeg);
+    
+}
+
+.carrossel__imagem-samuel{
+    background-image: url(../img/Samuel_Messias.svg);
+    
+}
+
+.carrossel__imagem-andreia{
+    background-image: url(../img/andreia.jpeg);
+    
+}
+
+.carrossel__imagem-beatriz{
+    background-image: url(../img/Beatriz_pontes.svg);
+    
+}
+
 
 .swiper-button-prev, .swiper-button-next {
     display: none;
@@ -37,3 +106,7 @@
     margin: 0.5em 0;
 }
 
+.swiper-slide__titulo {
+    font-weight: 500;
+    padding: 1em 0;
+}
