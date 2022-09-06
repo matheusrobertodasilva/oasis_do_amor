@@ -4,7 +4,7 @@
 
 Projeto criado para o grupo de jovens da igreja a qual eu pertenço, com o objetivo de anunciar a festividade do grupo. Festividade é um evento voltado para adoração a Deus por mais um aniversario do grupo. 
 
-O projeto é de minha autoria, mas não o fiz sozinho todas as imagens e estivo de fonte foi conversados com as pessoas responsáveis pela mídia do grupo. Agora toda a parte de layout foi criada por mim, posicionamento, formato, letra, e algumas outras coisas foi criado por mim
+O projeto é de minha autoria, mas não o fiz sozinho todas as imagens e estilo de fonte foi conversados com as pessoas responsáveis pela mídia do grupo. Agora toda a parte de layout foi criada por mim, posicionamento, formato, letra, e algumas outras coisas foi criado por mim
 
 ### Tecnologias usadas:
 
